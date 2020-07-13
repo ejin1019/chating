@@ -32,6 +32,7 @@
         </div>
         <div class="chat-body">
             <div>
+                <p></p>
             </div>
         </div>
         <div class="chat-footer">
@@ -63,7 +64,7 @@
 
     // 서버에서 받는 역할
     socket.on('chatting', (msg) => {
-        $('.chat-body').append(`<div>${msg}</div>`);
+        $('.chat-body').append(`<div><p>${msg}</p></div>`);
         $('.msg').val("");
         // const chat = document.querySelector(".chat-body");
         // const div = document.createElement("div");

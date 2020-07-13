@@ -78,11 +78,15 @@ body {
     height: 80%;
 }
 
-.chat-body div {
+.chat-body>div {
     background-color: #ffff;
     border-radius: 10px 10px 10px 10px;
     margin: 10px 10px;
     display: inline-block;
+}
+
+.chat-body>div>p {
+    margin: 10px 10px;
 }
 
 .chat-footer {
