@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+}
+
+.main-wrap {
+    background: linear-gradient(#bdc3c7, #2c3e50);
+    width: 450px;
+    height: 100vh;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.chat-header {
+    display: flex;
+    /* position: relative; */
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.back {
+    border: none;
+    background: none;
+    margin-right: 10px;
+}
+
+.back i {
+    color: #ffff;
+    font-size: 13px;
+}
+
+.user-name {
+    margin-right: 10px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.header-left img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-right {
+    position: absolute;
+    right: 0px;
+    margin: 10px 10px;
+}
+
+.header-right i {
+    color: #ffff;
+    margin: 10px 10px;
+}
+
+.chat-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: scroll;
+    height: 80%;
+}
+
+.chat-body div {
+    background-color: #ffff;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.chat-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 10px 10px;
+    display: flex;
+}
+
+.chatting {
+    background-color: #ffff;
+    padding: 10px 0;
+    border-radius: 10px 10px 10px 10px;
+    width: 95%;
+
+}
+
+.chat-footer input {
+    border: none;
+    width: 80%;
+}
+
+.chat-footer i {
+    color: #2767eb;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.chat-footer button {
+    background-color: #ffff;
+    border: none;
+}
